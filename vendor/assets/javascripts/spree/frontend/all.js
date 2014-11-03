@@ -10,4 +10,3 @@
 
 //= require_tree .
 //= require spree/fancy
-//= require spree/frontend/spree_simple_sales
