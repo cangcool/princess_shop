@@ -28,24 +28,23 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  host: localhost
-  port: 5433
 
 development:
   <<: *default
   database: princessshop_development
   username: prins
   password: Aq12ws
+  host: localhost
+  port: 5433
 
 test:
   <<: *default
   database: princessshop_test
   username: prins
   password: Aq12ws
+  host: localhost
+  port: 5433
 
 
 production:
   <<: *default
-  database: princessshop
-  username: prins
-  password: Aq12ws
