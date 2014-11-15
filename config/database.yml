@@ -31,19 +31,19 @@ default: &default
 
 development:
   <<: *default
-  database: princessshop_development
-  username: prins
-  password: Aq12ws
-  host: localhost
-  port: 5433
+  # database: princessshop_development
+  # username: prins
+  # password: Aq12ws
+  # host: localhost
+  # port: 5433
 
 test:
   <<: *default
-  database: princessshop_test
-  username: prins
-  password: Aq12ws
-  host: localhost
-  port: 5433
+  # database: princessshop_test
+  # username: prins
+  # password: Aq12ws
+  # host: localhost
+  # port: 5433
 
 
 production:
