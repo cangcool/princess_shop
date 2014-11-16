@@ -81,7 +81,7 @@ body {
     padding: 0 20px;
     width: auto;
     background-color: white;
-    border: none;
+    border-color: lighten($c_orange, 30);
     position: relative;
     z-index: 1;
   }
