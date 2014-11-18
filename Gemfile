@@ -5,10 +5,10 @@ ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Development and Test tools
-# use pg as interface to the PostgreSQL RDBMS
+# Use sqlite3 as the database for Active Record
 # Use Rspec as Test-Driven Development, Domain Driven Design, and Acceptance Test-Driven Planning
 group :development, :test do
-  gem 'pg', '0.15.1'
+  gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
 end
 # Production tools
